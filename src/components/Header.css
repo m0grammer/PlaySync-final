@@ -1,0 +1,168 @@
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    background: #15191E;
+    width: 1800px;
+    margin-left: 60px;
+    z-index: 10;
+
+    margin-top: 20px;
+    margin-bottom: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 425px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 18px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 100px;
+  }
+  .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 100px;
+    padding-left: -100px;
+  }
+  .header__logo h1 {
+    margin-left: -65px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .header__navigation {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__search {
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    padding: 13px 10px;
+  }
+  .header__search input {
+    background: #15191e;
+    color: white;
+  }
+  .header__search ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .header__search ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .header__search :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .header__search ::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .header__search ::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    font-weight: 300;
+  }
+  .header__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  .header__btns-notifications {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .header__btns-message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .header__btns-create {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  .header__btns-create a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: #a3f7e6;
+    color: black;
+  }
+  .header__btns-create h1 {
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .header__btns-create div {
+    width: 2px;
+    height: 100%;
+    border-radius: 1px;
+    background: rgba(217, 217, 217, 0.1);
+  }
+  .header__btns-profile {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #a3f7e6 0%, #b051f7 100%);
+    border-radius: 50%;
+  }

@@ -1,0 +1,35 @@
+.aboutUs {
+    background: white;
+    text-align: center;
+    padding-top: 83px;
+    padding-bottom: 196px;
+}
+.aboutUs h1 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 22px */
+    letter-spacing: -1.1px;
+    margin-bottom: 15px;
+}
+.aboutUs h2 {
+    color: #000;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 64px */
+    letter-spacing: -3.2px;
+    margin-bottom: 100px;
+}
+.aboutUs__video {
+    /* width: 1100px; */
+    height: 600px;
+    border-radius: 10px;   
+}
+
+

@@ -1,0 +1,121 @@
+.otherInfo {
+    margin-top: 120px;
+    margin-bottom: 200px;
+    text-align: center;
+  }
+  .otherInfo > h1 {
+    color: white;
+    letter-spacing: -3.2px;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+  .otherInfo > h2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    margin: 0 auto;
+    max-width: 344px;
+    margin-bottom: 60px;
+  }
+  .otherInfo__team {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 130px;
+  }
+  .otherInfo__team-co {
+    max-width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .otherInfo__team-co img {
+    margin-bottom: 15px;
+    border-radius: 18px;    
+  }
+  .otherInfo__team-text {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .otherInfo__team-text h1 {
+    color: #a3f7e6;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: -0.8px;
+    margin-bottom: 15px;
+  }
+  .otherInfo__team-text h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1.3px;
+    margin-bottom: 15px;
+  }
+  .otherInfo__team-text h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.6px;
+  }
+  
+  .footer {
+    background: #0d1017;
+  }
+  .footer__content {
+    padding: 50px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__content > h1 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .footer__content-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .footer__content-logo h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .footer__content-svgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }

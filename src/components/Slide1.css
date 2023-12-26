@@ -1,0 +1,110 @@
+.info__title {
+    padding-top: 170px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 18px;
+    background: linear-gradient(91deg, #a3f7e6 0%, #b051f7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info__content {
+    /* Отстус сверху от ВСЕГО блока с кристалликом  */
+    margin-top: 10px; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 35px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.info__content-left {
+    margin-top: 195px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.info__content-left p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 120%;
+    width: 420px;
+    margin-bottom: 50px;
+}
+.info__content-left img {
+    position: absolute;
+    top: 10px;
+    left: -65px;
+}
+.info__content-left button {
+    padding-right: 22px;
+    position: relative;
+    width: 170px;
+    height: 60px;
+    border-radius: 8px;
+    background: linear-gradient(97deg, #a3f7e6 0%, #b051f7 100%);
+    font-size: 20px;
+}
+.info__content-left span::after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 126px;
+    width: 22px;
+    height: 22px;
+    background: url("../assets/img/explore-png.png") no-repeat;
+}
+.info__content-right {
+    margin-top: 195px;
+    margin-right: -26 0px;
+}
+.info__content-right > p {
+    max-width: 334px;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.info__content-right-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.info__content-right-box p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 15px;
+}
+
+.disable {
+    display: none;
+}
+
+.info__content-center {
+    width: 950px;
+    height: 620px;
+    background: url("../assets/img/Eth.png") no-repeat;
+    /* margin-left: -80px; */
+}
+
+.info__title {
+    margin-bottom: 0px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+

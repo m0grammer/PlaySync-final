@@ -1,0 +1,208 @@
+.tournaments {
+    background: white;
+    padding-top: 83px;
+    padding-bottom: 120px;
+  }
+  .tournaments__info-text {
+    text-align: center;
+  }
+  .tournaments__info-text h2 {
+    letter-spacing: -1.1px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+  }
+  .tournaments__info-text h1 {
+    font-size: 64px;
+    letter-spacing: -3.2px;
+    font-weight: 800;
+    margin-bottom: 56px;
+  }
+  .tournaments__info-slider-filter {
+    margin-bottom: 20px;
+  }
+  .tournaments__info-slider-filter-future {
+    font-weight: 600;
+    padding: 7px 17px;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    border-radius: 24px;
+  }
+  .tournaments__info-slider-filter-past {
+    font-weight: 600;
+    padding: 7px 17px;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    border-radius: 24px;
+  }
+  .tournaments__info-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tournaments__info-btn a {
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: black;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -1.3px;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+  }
+  
+  .btnSliderOff:disabled {
+    opacity: 0.5;
+  }
+  
+  .btnSliderActive {
+    background: #000;
+    color: white;
+  }
+  
+  .btnSliderBlocked {
+    border: 1px solid #000;
+    background: white;
+  }
+  
+  .slideActive {
+    display: block;
+  }
+  
+  .slideBlocked {
+    display: none !important;
+  }
+  
+  .swiper {
+    margin-bottom: 100px;
+  }
+  
+  .swiper-slide > img {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  
+  .swiper-slide {
+    width: 400px !important;
+  }
+  
+  .swiper-slide-text {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    width: 400px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .sliderPrice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .swiper-slide-text h1 {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    margin-bottom: 5px;
+  }
+  
+  .swiper-slide-text h2 {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .swiper-slide-text1{
+    margin-left: 20px;
+  }
+
+  .swiper-slide-text2{
+    margin-left: 20px;
+  }
+
+  .swiper-slide-text3{
+    margin-left: 20px;
+  }
+
+  .swiper-slide-text4{
+    margin-left: 20px;
+  }
+  
+  .swiper-slide-text1-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #27254c 0%, #e71e7a 100%);
+  }
+  
+  .swiper-slide-text2-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f6487b 0%, #fff 100%);
+  }
+  
+  .swiper-slide-text3-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a4a4c8 0%, #3a3064 100%, #36295f 100%);
+  }
+  
+  .swiper-slide-text4-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fff 0%, #000 100%);
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Запрещаем переносить слайды на новую строку */
+  }
+  
+  .swiper-slide {
+    flex-shrink: 0; /* Запрещаем уменьшение размеров слайдов */
+  }
+
+  .tournaments__info-slider-filter-future{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
